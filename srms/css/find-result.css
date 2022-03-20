@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: rgb(212, 163, 163);
+  }
+  
+  .student-login-page {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+  }
+  .student-login-left,
+  .student-login-right {
+    flex: 1;
+    height: 100vh;
+  }
+  
+  .student-login-image {
+    height: 80px;
+    padding: 5%;
+  }
+  
+  .student-login-container {
+    padding: 5% 10%;
+    height: calc(100vh - 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .student-login-back {
+    background-color: #ebaf24;
+    height: 80vh;
+    border-radius: 0 0 0 20%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    background-image: url("./login.svg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 70%;
+  }
+  
+  .student-login-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 10px;
+    width: 50%;
+  }
+  .student-login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .text-id,
+  .select-id,
+  .button-id {
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: transparent;
+    margin: 10px 0;
+  }
+  
+  .button-id {
+    background-color: #ebaf24;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .text-id::placeholder {
+    color: #ccc;
+    text-transform: capitalize;
+  }
+  
+  .student-login-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  
+  .student-login-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ccc;
+    text-transform: uppercase;
+    animation: slide 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  }
+  
+  .student-login-link:hover {
+    color: #333333;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(-210px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
