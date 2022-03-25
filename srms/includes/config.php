@@ -1,8 +1,8 @@
 <?php 
 // DB credentials.
 define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
+define('DB_USER','username');
+define('DB_PASS','password');
 define('DB_NAME','srms');
 // Establish database connection.
 try
@@ -13,4 +13,3 @@ catch (PDOException $e)
 {
 exit("Error: " . $e->getMessage());
 }
-?>

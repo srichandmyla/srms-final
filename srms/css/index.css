@@ -5,9 +5,9 @@
 
 .left-sidebar {
   background-color: orange;
-  color: #ffffff;
-  font-weight: bold;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #ff0000;
+  /* font-weight: bold; */
+  /* font-family: Verdana, Arial, Helvetica, sans-serif; */
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -127,5 +127,7 @@
     background-image: url("https://images.unsplash.com/photo-1514355315815-2b64b0216b14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   }
 }
-a{text-decoration: none;
-color:inherit}
+a {
+  text-decoration: none;
+  color: inherit;
+}
