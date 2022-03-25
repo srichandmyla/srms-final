@@ -24,6 +24,8 @@ if(strlen($_SESSION['alogin'])=="")
         <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
+        
+        <link rel="stylesheet" href="css/index.css" media="screen" >
           <style>
         .errorWrap {
     padding: 10px;

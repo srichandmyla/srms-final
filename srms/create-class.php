@@ -44,6 +44,8 @@ $error="Something went wrong. Please try again";
         <link rel="stylesheet" href="css/prism/prism.css" media="screen" > <!-- USED FOR DEMO HELP - YOU CAN REMOVE IT -->
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
+        
+        <link rel="stylesheet" href="css/index.css" media="screen" >
          <style>
         .errorWrap {
     padding: 10px;

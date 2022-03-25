@@ -59,6 +59,8 @@ $error="Something went wrong. Please try again";
         <link rel="stylesheet" href="css/prism/prism.css" media="screen" >
         <link rel="stylesheet" href="css/select2/select2.min.css" >
         <link rel="stylesheet" href="css/main.css" media="screen" >
+        
+        <link rel="stylesheet" href="css/index.css">
         <script src="js/modernizr/modernizr.min.js"></script>
         <script>
 function getStudent(val) {

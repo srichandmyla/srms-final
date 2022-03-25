@@ -45,6 +45,8 @@ $error="Something went wrong. Please try again";
         <link rel="stylesheet" href="css/select2/select2.min.css" >
         <link rel="stylesheet" href="css/main.css" media="screen" >
         <script src="js/modernizr/modernizr.min.js"></script>
+        
+        <link rel="stylesheet" href="css/index.css" media="screen" >
     </head>
     <body class="top-navbar-fixed">
         <div class="main-wrapper">
